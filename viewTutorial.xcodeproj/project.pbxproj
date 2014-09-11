@@ -21,6 +21,7 @@
 		F66F4ED019C1433500436A64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66F4EB219C1433500436A64 /* UIKit.framework */; };
 		F66F4ED819C1433500436A64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66F4ED619C1433500436A64 /* InfoPlist.strings */; };
 		F66F4EDA19C1433500436A64 /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4ED919C1433500436A64 /* viewTutorialTests.m */; };
+		F66F4EE819C146CA00436A64 /* HHGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4EE719C146CA00436A64 /* HHGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F66F4ED519C1433500436A64 /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		F66F4ED719C1433500436A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F66F4ED919C1433500436A64 /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		F66F4EE619C146CA00436A64 /* HHGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHGrid.h; sourceTree = "<group>"; };
+		F66F4EE719C146CA00436A64 /* HHGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				F66F4EC019C1433500436A64 /* Main.storyboard */,
 				F66F4EC319C1433500436A64 /* HHViewController.h */,
 				F66F4EC419C1433500436A64 /* HHViewController.m */,
+				F66F4EE619C146CA00436A64 /* HHGrid.h */,
+				F66F4EE719C146CA00436A64 /* HHGrid.m */,
 				F66F4EC619C1433500436A64 /* Images.xcassets */,
 				F66F4EB519C1433500436A64 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66F4EC519C1433500436A64 /* HHViewController.m in Sources */,
+				F66F4EE819C146CA00436A64 /* HHGrid.m in Sources */,
 				F66F4EBF19C1433500436A64 /* HHAppDelegate.m in Sources */,
 				F66F4EBB19C1433500436A64 /* main.m in Sources */,
 			);

@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface HHViewController : UIViewController
+@property(nonatomic, readonly, retain) UILabel *titleLabel;
+
+@property(nonatomic) BOOL showsTouchWhenHighlighted;
 
 @end
